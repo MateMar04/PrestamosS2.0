@@ -12,6 +12,11 @@ public abstract class Publicacion {
         this.categoria = categoria;
     }
 
+    public void incrementarCantPrestamos() {
+        cantidadPrestamos++;
+    }
+
+
     public String getTitulo() {
         return titulo;
     }

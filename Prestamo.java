@@ -15,6 +15,7 @@ public class Prestamo {
 
     public void agregarPublicacion(Publicacion publicacion) {
         listaPublicaionesPrestadas.add(publicacion);
+        publicacion.incrementarCantPrestamos();
     }
 
     public Cliente getCliente() {
