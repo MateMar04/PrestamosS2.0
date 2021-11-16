@@ -13,27 +13,27 @@ public class Biblioteca {
         this.listaPrestamos = new ArrayList<>();
     }
 
-    public void agregarPublicacion(Publicacion publicacion){
+    public void agregarPublicacion(Publicacion publicacion) {
         listaPublicaciones.add(publicacion);
     }
 
-    public void agregarCliente(Cliente cliente){
+    public void agregarCliente(Cliente cliente) {
         listaClientes.add(cliente);
     }
 
-    public void agregarPrestamo(Prestamo prestamo){
+    public void agregarPrestamo(Prestamo prestamo) {
         listaPrestamos.add(prestamo);
     }
 
-    public int cantidadPublicaciones(){
+    public int cantidadPublicaciones() {
         return listaPublicaciones.size();
     }
 
-    public int cantidadClientes(){
+    public int cantidadClientes() {
         return listaClientes.size();
     }
 
-    public int cantidadPrestamos(){
+    public int cantidadPrestamos() {
         return listaPrestamos.size();
     }
 
@@ -65,7 +65,7 @@ public class Biblioteca {
         return listaClientes;
     }
 
-    public ArrayList<Prestamo> listarPerstamos() {
+    public ArrayList<Prestamo> listarPrestamos() {
         return listaPrestamos;
     }
 

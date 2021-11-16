@@ -13,7 +13,7 @@ public class Prestamo {
         this.listaPublicaionesPrestadas = new ArrayList<>();
     }
 
-    public void agregarPublicacion(Publicacion publicacion){
+    public void agregarPublicacion(Publicacion publicacion) {
         listaPublicaionesPrestadas.add(publicacion);
     }
 
@@ -34,9 +34,8 @@ public class Prestamo {
     }
 
 
-
     @Override
     public String toString() {
-        return cliente + fechaInicio + fechaDevolucion;
+        return cliente + ", " + fechaInicio + ", " + fechaDevolucion;
     }
 }

@@ -34,7 +34,7 @@ public abstract class Publicacion {
 
     @Override
     public String toString() {
-        return titulo + autor + editorial + categoria + cantidadPrestamos;
+        return titulo + ", " + autor + ", " + editorial + ", " + categoria + ", " + cantidadPrestamos;
     }
 }
 
